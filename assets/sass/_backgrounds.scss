@@ -128,3 +128,69 @@ ul{
 	background-size: cover;
     background-position: 50% 50%;
 }
+
+@media screen and (min-width: 769px) {
+    .bg-slideshow li:nth-child(1) span { 
+    background-image: url(../img/big1769.jpg) 
+    }
+    .bg-slideshow li:nth-child(2) span { 
+        background-image: url(../img/big2769.jpg);
+        -webkit-animation-delay: 8s;
+        -moz-animation-delay: 8s;
+        -o-animation-delay: 8s;
+        -ms-animation-delay: 8s;
+        animation-delay: 8s; 
+    }
+    .bg-slideshow li:nth-child(3) span { 
+        background-image: url(../img/big3769.jpg);
+        -webkit-animation-delay: 16s;
+        -moz-animation-delay: 16s;
+        -o-animation-delay: 16s;
+        -ms-animation-delay: 16s;
+        animation-delay: 16s; 
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .bg-slideshow li:nth-child(1) span { 
+    background-image: url(../img/big1960.jpg) 
+    }
+    .bg-slideshow li:nth-child(2) span { 
+        background-image: url(../img/big2960.jpg);
+        -webkit-animation-delay: 8s;
+        -moz-animation-delay: 8s;
+        -o-animation-delay: 8s;
+        -ms-animation-delay: 8s;
+        animation-delay: 8s; 
+    }
+    .bg-slideshow li:nth-child(3) span { 
+        background-image: url(../img/big3960.jpg);
+        -webkit-animation-delay: 16s;
+        -moz-animation-delay: 16s;
+        -o-animation-delay: 16s;
+        -ms-animation-delay: 16s;
+        animation-delay: 16s; 
+    }
+}
+
+@media screen and (min-width: 1460px) {
+    .bg-slideshow li:nth-child(1) span { 
+    background-image: url(../img/big11460.jpg) 
+    }
+    .bg-slideshow li:nth-child(2) span { 
+        background-image: url(../img/big21460.jpg);
+        -webkit-animation-delay: 8s;
+        -moz-animation-delay: 8s;
+        -o-animation-delay: 8s;
+        -ms-animation-delay: 8s;
+        animation-delay: 8s; 
+    }
+    .bg-slideshow li:nth-child(3) span { 
+        background-image: url(../img/big31460.jpg);
+        -webkit-animation-delay: 16s;
+        -moz-animation-delay: 16s;
+        -o-animation-delay: 16s;
+        -ms-animation-delay: 16s;
+        animation-delay: 16s; 
+    }
+}

@@ -111,33 +111,10 @@ body{
 }
 /* contact
 ---------------------------------------*/
-fieldset{
-	width:60%;
-	max-width:290px;
-	border:none;
-	margin:0 auto;
-}
-form{
-	margin-top:25%;
-}
-.form-title {
-  	text-align: right;
- 	padding-right: 0.5em;
-}
-input,
-textarea{
-	@include font();
-	font-size:14px;
-	padding:.25em;
-	margin:1em;
-}
-button{
-	color:$white;
-	@include font();
-	font-size:14px;
-	background-color:$mint;
-	font-weight:700;
-	padding: .5em .5em;
-  	margin-left: .85em;
-  	border:none;
+.contact{
+	width:50%;
+	float:right;
+	text-align:right;
+	margin-top:75vh;
+	padding:2em;
 }
